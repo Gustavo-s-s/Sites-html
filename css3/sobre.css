@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One'
+}
+
+body{
+    height: 100%;
+    background-color: black;
+}
+
+.clear{clear: both;}
+
+.selected{
+    background-color: #7806b1c0;
+    padding: 10px;
+}
+
+div.conteiner{
+    
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    background-color:#3F015D;
+}
+
+div.logo{
+    float: left;
+    color: whitesmoke;
+    font-size: 23px;
+    padding: 12px 0;
+
+}
+
+div.menu-desktop{
+    float: right;
+}
+
+div.menu-desktop ul{
+    padding: 16px 0;
+    
+}
+
+div.menu-desktop ul a{
+    margin-left: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+section h2{
+    text-align: left;
+    color: #3F015D;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.box-conteiner1{
+    display: inline-block;
+    border-left: 5px solid #3F015D;
+    margin-top: 50px;
+    margin-right: 30px;
+    width: 48%;
+}
+
+.informacao p {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.informacao i{
+    padding-right: 5px;
+    color: #3F015D;
+}
+
+.box-conteiner2{
+    display: inline-block;
+    width: 48%;
+    border-left: 5px solid #3F015D;
+}
+
+

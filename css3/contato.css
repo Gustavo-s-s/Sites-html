@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One';
+}
+
+body{
+    height: 100%;
+    background-color: black;
+}
+
+.clear{clear: both;}
+
+.selected{
+    padding: 10px;
+    background-color: #7806b1c0;
+}
+
+div.conteiner{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    background-color:#3F015D;
+}
+
+div.logo{
+    float: left;
+    color: whitesmoke;
+    font-size: 23px;
+    padding: 12px 0;
+
+}
+
+div.menu-desktop{
+    float: right;
+}
+
+div.menu-desktop ul{
+    padding: 16px 0;
+    
+}
+
+div.menu-desktop ul a{
+    margin-left: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+div.box-contato{
+    display: flex;
+    max-width: 900px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+div.form{
+    display: inline-block;
+    width: 40%; 
+}
+
+div.form h3{
+    color: #3F015D;
+    font-size: 20px;
+}
+
+.box-form input, textarea{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    outline: none;
+    color: #3F015D;
+}
+
+.box-form textarea{
+    resize: none;
+}
+
+.box-form button{
+    width: 25%;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: #3F015D;
+    color:whitesmoke;
+    text-align: center;
+    float: right;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: #7806b1c0;
+    text-transform: lowercase;
+}
+
+div.maps{
+    display: inline-block;
+    width: 40%;
+    margin-left: 100px;
+}
+
+div.maps h3{
+    margin-bottom: 10px;
+    color: #3F015D;
+    font-size: 20px;
+}
+
+div.maps iframe{
+    width: 100% ;
+    height: 250px;
+    border: 0px;
+    box-shadow: 5px 10px #7806b1c0;
+}

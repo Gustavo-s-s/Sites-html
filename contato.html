@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css3/contato.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <title>Portifolio</title>
+</head>
+<body>
+
+    <header>
+        <div class="conteiner">
+        <div class="logo">{DEV - Gustavo}</div><!--logo-->
+            <div class="menu-desktop">
+                <nav>
+                    <ul>
+                        <a href="index.html">Home</a>
+                        <a href="sobre.html">sobre</a>
+                        <a class="selected" href="contato.html">contato</a>
+                    </ul>
+                </nav>
+            </div><!--menu-desktop-->
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <section>
+        <div class="conteiner">
+            <div class="box-contato">
+            <div class="form">
+               <h3>Entre em contato!</h3>
+                <form class="box-form" action="acao" method="POST">
+                    <input type="text" name="nome" placeholder="Digite seu nome*" required>
+                    <input type="text" name="e-mail" placeholder="Digite seu e-mail*" required>
+                    <input type="text" name="telefone" placeholder="(-) Telefone*" required>
+                    <textarea name="infromacao" placeholder="Mensagem" ></textarea>
+                    <button type="submit" name="botao">Enviar!</button>
+                </form>
+            </div>
+
+            <div class="maps">
+                <h3>Faça uma visita!</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.842980069424!2d-51.10912428555389!3d-30.01266473675818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519766d9a8ad151%3A0x42942c98ba1f129e!2sHugo%20Nelson%20Magalh%C3%A3es%20-%20Rubem%20Berta%2C%20Porto%20Alegre%20-%20RS%2C%2091160-000!5e0!3m2!1spt-BR!2sbr!4v1614191158906!5m2!1spt-BR!2sbr"  allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    </body>
+    </html>

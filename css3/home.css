@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One'
+}
+
+body{
+    height: 100%;
+}
+
+.clear{clear: both;}
+
+.selected{
+    padding: 10px;
+    background-color: #7806b1c0;
+}
+
+div.conteiner{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    background-color:#3F015D;
+}
+
+div.logo{
+    float: left;
+    color: whitesmoke;
+    font-size: 23px;
+    padding: 12px 0;
+
+}
+
+div.menu-desktop{
+    float: right;
+}
+
+div.menu-desktop ul{
+    padding: 16px 0;
+    
+}
+
+div.menu-desktop ul a{
+    margin-left: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+
+section.bg{
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: rgb(0 , 0 , 0 );
+    width: 100%;
+    height: 529px; 
+}
+
+.imagem{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 35%;
+    height: 529px;
+    background-image: url('../img/imgGu.png');
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.social-midia{
+    display: inline-block;
+    margin: 100px 100px 0px 50px;
+    vertical-align: middle;
+}
+
+.social-midia nav{
+    border-left: 5px solid #3F015D;
+}
+
+.social-midia nav a{
+    display: block;
+    border: 2px solid #3F015D;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;  
+    transition: 1s; 
+}
+
+.social-midia nav a:hover{
+    background-color: #3F015D;
+}
+
+div.info{
+    display: inline-block;
+    max-width: 40%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.info h1{
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+div.info p{
+    font-size: 20px;
+}
+
+div.info p > b{
+    color: #3F015D;
+    font-size: larger;
+}
+
+
+
